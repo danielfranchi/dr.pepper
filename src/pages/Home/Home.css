@@ -1,0 +1,36 @@
+.overview-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  flex-direction: row;
+}
+
+.overview {
+  background: #8a2231;
+  width: 300px;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 5px;
+  font-family: MissionGothicBold,sans-serif;
+  font-size: 1.1em;
+  letter-spacing: .08em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.overview span {
+  margin-bottom: 10px;
+}
+
+.overview-home {
+  padding: 100px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}

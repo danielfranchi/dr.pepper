@@ -1,0 +1,49 @@
+.menu-bg {
+  background: #8a2231;
+  height: 90px;
+}
+
+.menu {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-logo {
+  font-weight: bold;
+  margin: 0 10px;
+  color: white;
+}
+
+.menu-logo img {
+  width: 80%
+}
+
+.menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-nav ul li {
+  font-family: MissionGothicBold,sans-serif;
+  cursor: pointer;
+  font-size: 1.1em;
+  letter-spacing: .08em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.menu-nav a {
+  font-size: 1.25em;
+  display: block;
+  padding: 10px;
+  color: white;
+}
+
+.menu-nav a:hover {
+  color: #e6e6fa;
+}
